@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-# A simple Tic-Toe-Toe game developed in Android Studio using Java. Its a two player game with easy code implementation.
+A simple Tic-Toe-Toe game developed in Android Studio using Java. Its a two player game with easy code implementation.
 
 # ScreenShot
 
