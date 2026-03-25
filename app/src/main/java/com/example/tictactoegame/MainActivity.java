@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity {
     boolean executed;
     int i = 0, j = 0;
     int activePlayer = 0;
-    int [] gameState = {2, 2, 2, 2, 2, 2, 2, 2, 2};
+    int [] gameState = {/*...*/};
 
-    int [][] winPosition = {{0 , 1 , 2}, {3, 4 , 5}, {6 , 7 ,8} , //horizontal win positions
-            {0 , 4 , 8}, {2 , 4 , 6} , //diagonal win positions
-            {0 , 3 , 6} , {1 , 4 , 7} , {2 , 5 , 8} //vertical win positions
+    int [][] winPosition = {{/*...*/}, {/*...*/}, {/*...*/} , //horizontal win positions
+            {/*...*/}, {/*...*/} , //diagonal win positions
+            {/*...*/} , {/*...*/} , {/*...*/} //vertical win positions
     };
 
 
@@ -60,9 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
         for(int [] win : winPosition) {
 
-            if (gameState[win[0]] == gameState[win[1]] &&
-             gameState[win[1]] == gameState[win[2]] &&
-             gameState[win[0]] != 2){
+            if (/*...*/ != 2){
 
                 isGameActive = false;
                 String winnerStr;
@@ -114,14 +112,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // set all the images to null
-        _binding.image0.setImageResource(0);
-        _binding.image1.setImageResource(0);
-        _binding.image2.setImageResource(0);
-        _binding.image3.setImageResource(0);
-        _binding.image4.setImageResource(0);
-        _binding.image5.setImageResource(0);
-        _binding.image6.setImageResource(0);
-        _binding.image7.setImageResource(0);
-        _binding.image8.setImageResource(0);
+       /*...*/
     }
 }
