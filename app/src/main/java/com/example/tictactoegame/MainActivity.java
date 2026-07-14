@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
     public void PlayerTap(View v){
         ImageView image = (ImageView) v;
 
-        // get the tag
         int tapImage = Integer.parseInt(image.getTag().toString());
 
         if(!isGameActive){
@@ -79,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 _binding.status.setText(winnerStr);
             }
         }
-        // following code block checks if all boxes are occupied
+     
         boolean isSquareEmpty = false;
         for(int check : gameState){
             if (check == 2){
@@ -106,12 +105,12 @@ public class MainActivity extends AppCompatActivity {
 
         _binding.status.setText("");
 
-        // set all the boxes empty
+    
         for(int i = 0; i<gameState.length; i++){
             gameState[i] = 2;
         }
 
-        // set all the images to null
+      
        /*...*/
     }
 }
